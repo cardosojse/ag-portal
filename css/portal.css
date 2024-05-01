@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.125rem;
+}
+
+:root{
+    --clr-blue-primary:#022C90;
+    --clr-blue-secondary:#2765D9;
+    --clr-yellow:#FEBB01;
+    --clr-light-gray:#DCDCDC;
+    --clr-dark-gray:#636363;
+}
+
+header{
+    background-color: var(--clr-blue-primary);
+}
+
+header .button{
+    background-color: var(--clr-yellow);
+    border-radius: 50%;
+}
+
+.button{
+    background-color: var(--clr-blue-secondary);
+    color: #fff;
+    padding: .25em .5em;
+    border-radius: 4px;
+    border: none;
+}
+
+.button:hover{
+    opacity: .7;
+}
+
+.user-info{
+    line-height: 1em;
+}
+
+#input-busca{
+    border: 2px solid var(--clr-dark-gray);
+}
+
+@media (max-width:576px) {
+    header img,
+    .footer-logo{
+        width: 10vw;
+    }
+
+    .user-msg,
+    .footer-text{
+        font-size: .9rem;
+        color: var(--clr-dark-gray);
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+}
