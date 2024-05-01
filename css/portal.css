@@ -20,9 +20,9 @@ header{
     background-color: var(--clr-blue-primary);
 }
 
-header .button{
-    background-color: var(--clr-yellow);
-    border-radius: 50%;
+.nav-item a{
+    color: #fff;
+    font-size: .9rem;
 }
 
 .button{
@@ -43,17 +43,28 @@ header .button{
 
 #input-busca{
     border: 2px solid var(--clr-dark-gray);
+    border-radius: 16px;
 }
 
 @media (max-width:576px) {
     header img,
     .footer-logo{
-        width: 10vw;
+        width: 13vw;
     }
 
     .user-msg,
     .footer-text{
         font-size: .9rem;
+        color: var(--clr-dark-gray);
+    }
+
+    .search-box{position: relative;}
+    
+    .bi-search{
+        position: absolute;
+        top: 50%;
+        right: 6%;
+        transform: translateY(-50%);
         color: var(--clr-dark-gray);
     }
 
