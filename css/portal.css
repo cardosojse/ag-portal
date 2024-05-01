@@ -42,7 +42,7 @@ header{
 }
 
 #input-busca{
-    border: 2px solid var(--clr-dark-gray);
+    border: 2px solid var(--clr-light-gray);
     border-radius: 16px;
 }
 
