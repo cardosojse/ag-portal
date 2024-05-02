@@ -60,14 +60,11 @@ footer{width: 100%}
 @media (max-width:576px) {
     .container{
         padding:.5em;
-        overflow: hidden;
     }
 
     .grid__section{
         padding: 0 .5em;
         gap: .5em;
-        overflow: auto;
-        height: auto;
     }
 
     .grid-item{
