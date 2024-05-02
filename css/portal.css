@@ -21,6 +21,7 @@ header{background: linear-gradient(to right, var(--clr-blue-secondary) 0%, var(-
 .grid__section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .grid-item{
@@ -59,11 +60,14 @@ footer{width: 100%}
 @media (max-width:576px) {
     .container{
         padding: .5em;
+        overflow: hidden;
     }
 
     .grid__section{
         padding: 0 .5em;
         gap: .5em;
+        overflow: auto;
+        height: auto;
     }
 
     .grid-item{
