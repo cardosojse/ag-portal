@@ -59,7 +59,7 @@ footer{width: 100%}
 
 @media (max-width:576px) {
     .container{
-        padding: .5em;
+        padding:.5em;
         overflow: hidden;
     }
 
