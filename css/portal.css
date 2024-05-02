@@ -21,7 +21,6 @@ header{background: linear-gradient(to right, var(--clr-blue-secondary) 0%, var(-
 .grid__section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .grid-item{
@@ -58,20 +57,15 @@ input::placeholder{color: var(--clr-dark-gray)}
 footer{width: 100%}
 
 @media (max-width:576px) {
-    .container{
-        padding:.5em;
-    }
+    .container{padding:.5em}
 
     .grid__section{
-        padding: 0 .5em;
+        padding-top: .5em;
         gap: .5em;
     }
 
     .grid-item{
         padding: 1em;
-    }
-
-    .grid-item{
         text-align: center;
     }
 
