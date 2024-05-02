@@ -18,14 +18,9 @@
 
 header{background: linear-gradient(to right, var(--clr-blue-secondary) 0%, var(--clr-blue-primary) 100% )}
 
-.container{
-    overflow: hidden;
-}
-
 .grid__section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    overflow: auto;
 }
 
 .grid-item{
