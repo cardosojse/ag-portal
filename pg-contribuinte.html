@@ -9,8 +9,29 @@
     <title>Portal do Contribuinte</title>
 </head>
 <body>
-    <header class="container">
-        <img src="images/logo/Union.png" alt="ag-logo">
+    <header class="container row">
+        <img src="images/logo/Union.png" alt="ag-logo" class="ag-logo">
+        <div class="navbar">
+            <button class="nav-toggler">
+                <img src="images/menu.png" alt="menu">
+            </button>
+            <nav class="nav">
+                <button class="nav-close">
+                    <img src="images/close.png" alt="close">
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-link">
+                        <a href="#">Solicitar acesso</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Redefinir senha</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Sair</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="container">
         <div class="row">
@@ -112,5 +133,23 @@
         </div>
         <p class="footer-text m-0">© Ágape Sistemas e Tecnologias</p>
     </footer>
+    <script>
+        const toggleBtn = document.querySelector(".nav-toggler");
+        const closeBtn = document.querySelector(".nav-close")
+        const nav = document.querySelector(".nav");
+
+        toggleBtn.addEventListener("click", ()=>{
+            if(nav.classList.contains("show-nav")){
+                nav.classList.remove("show-nav");
+            }
+            else{
+                nav.classList.add("show-nav");
+            }
+        });
+
+        closeBtn.addEventListener("click", ()=>{
+            nav.classList.remove("show-nav");
+        });
+    </script>
 </body>
 </html>

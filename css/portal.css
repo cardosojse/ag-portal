@@ -16,18 +16,7 @@
     --clr-dark-gray:#636363;
 }
 
-header{background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, var(--clr-blue-primary) 100% )}
-
-.grid__section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-item{
-    border: 2px solid var(--clr-light-gray);
-    border-radius: 16px;
-    background-color: #EEEEEE;
-}
+header{background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, var(--clr-blue-primary) 100%)}
 
 .row{
     display: flex;
@@ -55,10 +44,58 @@ header{background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, var(
 
 input::placeholder{color: var(--clr-dark-gray)}
 
+.grid__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item{
+    border: 1px solid var(--clr-light-gray);
+    border-radius: 16px;
+    background-color: #EEEEEE;
+    box-shadow: 0 2px 4px #ccc;
+}
+
+
 footer{width: 100%}
 
 @media (max-width:576px) {
     .container{padding:.5em}
+
+    .bi-list{
+        color: #fff;
+    }
+
+    .nav{
+        transform: translateY(-100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+    
+        width: 100%;
+        justify-content: center;
+        background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, var(--clr-blue-primary) 100%);
+        padding: .5em;
+        transition: 1s;
+        z-index: 1;
+        text-align: end;
+    }
+
+    .nav-toggler, 
+    .nav-close{
+        border: none;
+        background-color: transparent;
+    }
+
+    .show-nav{transform: translate(0);}
+
+    .nav-list{list-style: none;}
+
+    .nav-link a{
+        color: #fff;
+        text-decoration: none;
+        font-size: .9rem;
+    }
 
     .grid__section{
         padding-top: .5em;
@@ -75,7 +112,7 @@ footer{width: 100%}
         color: var(--clr-dark-gray);
     }
 
-    header img,
+    .ag-logo,
     .footer-logo{width: 13vw}
 
     .user-msg,
