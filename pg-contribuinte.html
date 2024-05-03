@@ -10,9 +10,27 @@
     <title>Portal do Contribuinte</title>
 </head>
 <body>
-    <header class="column py-3">
+    <header class="navbar navbar-expand-sm py-3">
         <div class="container">
-            <img src="images/logo/Union.png" alt="ag-logo" class="ag-logo">
+            <div class="nav-brand">
+                <img src="images/logo/Union.png" alt="ag-logo" class="ag-logo">
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav-list" class="navbar-collapse collapse justify-content-end">
+                <ul class="navbar-nav d-flex align-items-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Solicitar acesso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Redefinir senha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Sair</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="container">
@@ -53,5 +71,6 @@
         <p class="footer-text m-0">© Ágape Sistemas e Tecnologias</p>
     </footer>
     <script src="js/portal.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
 </html>

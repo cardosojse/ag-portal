@@ -33,6 +33,12 @@ p{
 .ag-logo,
 .footer-logo{width: 13vw}
 
+.nav-link{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
 .user-info{
     line-height: 1rem;
 }
@@ -108,7 +114,7 @@ footer{
 }
 
 @media (min-width: 992px) {
-    .ag-logo{width: 3.5vw}
+    .ag-logo{width: 4vw}
 
     .user-info{line-height: 1.125rem}
 
@@ -134,5 +140,5 @@ footer{
         transform: translateX(-50%);
     }
 
-    .footer-logo{width: 2.5vw}
+    .footer-logo{width: 3vw}
 }
