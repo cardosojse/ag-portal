@@ -33,7 +33,6 @@ p{
 .ag-logo,
 .footer-logo{width: 13vw}
 
-/* .purple{border: 1px solid purple} */
 .user-info{
     line-height: 1rem;
 }
@@ -45,7 +44,6 @@ p{
     font-size: .8rem;
 }
 
-.yellow{border: 1px solid yellow;}
 .a11y-button{
     background-color: var(--clr-blue-secondary);
     padding: .3em .6em;
@@ -65,9 +63,7 @@ p{
     color: var(--clr-dark-gray);
 }
 
-.search-box{
-    margin: 1em 0;
-}
+.search-box{margin: 1em 0}
 
 input::placeholder{color: var(--clr-dark-gray)}
 
@@ -84,10 +80,8 @@ input::placeholder{color: var(--clr-dark-gray)}
     border: 2px solid var(--clr-blue-secondary);
 }
 
-
 .search-box{position: relative}
 
-/* .blue{border: 1px solid blue} */
 .grid-title{
     font-size: 1.25rem;
     color: var(--clr-blue-primary);
@@ -126,9 +120,7 @@ footer{
         margin: 0;
     }
 
-    #input-busca{
-        padding: .5em 1em;
-    }
+    #input-busca{padding: .5em 1em}
 
     .grid__section{
         display: grid;
