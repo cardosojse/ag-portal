@@ -39,6 +39,8 @@ p{
     text-decoration: none;
 }
 
+.nav-link:hover{color:rgba(255, 255, 255, .5)}
+
 .user-info{
     line-height: 1rem;
 }
@@ -108,9 +110,19 @@ input::placeholder{color: var(--clr-dark-gray)}
     box-shadow: 0 2px 4px #ccc;
 }
 
+.grid-item:hover{
+    border: 1px solid var(--clr-blue-secondary);
+    cursor: pointer;
+}
+
 footer{
     background-color: #fff;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .ag-logo,
+    .footer-logo{width: 5vw}
 }
 
 @media (min-width: 992px) {
