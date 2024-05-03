@@ -45,7 +45,7 @@ p{
     font-size: .8rem;
 }
 
-/* .yellow{border: 1px solid yellow;} */
+.yellow{border: 1px solid yellow;}
 .a11y-button{
     background-color: var(--clr-blue-secondary);
     padding: .3em .6em;
@@ -63,6 +63,10 @@ p{
     right: 6%;
     transform: translateY(-50%);
     color: var(--clr-dark-gray);
+}
+
+.search-box{
+    margin: 1em 0;
 }
 
 #input-busca{
@@ -100,4 +104,32 @@ input::placeholder{color: var(--clr-dark-gray)}
 footer{
     background-color: #fff;
     width: 100%;
+}
+
+@media (min-width:992px) {
+    .ag-logo{width: 3.5vw}
+
+    .search-box,
+    .grid-title{
+        width: 50%;
+        margin: 0;
+    }
+
+    #input-busca{
+        padding: .5em 1em;
+    }
+
+    .grid__section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer-logo{width: 2.5vw}
 }
