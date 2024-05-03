@@ -106,7 +106,7 @@ footer{
     width: 100%;
 }
 
-@media (min-width:992px) {
+@media screen (min-width:992px) {
     .ag-logo{width: 3.5vw}
 
     .search-box,
