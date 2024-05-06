@@ -22,7 +22,7 @@ const addData = () => {
 }
 
 const initApp = () => {
-    fetch('pg-contribuinte.json')
+    fetch('portal.json')
     .then(response => response.json())
     .then(data => {
         gridList = data;
