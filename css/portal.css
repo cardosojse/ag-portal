@@ -48,7 +48,7 @@ p{
 }
 
 .a11y-button{
-    background-color: var(--clr-blue-secondary);
+    background-color: var(--clr-yellow);
     padding: .3em .6em;
     border-radius: 4px;
     border: none;
@@ -56,7 +56,7 @@ p{
     box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
 }
 
-.a11y-button:hover{opacity: .7}
+.a11y-button:hover{opacity: .9}
 
 .bi-search{
     position: absolute;
@@ -117,8 +117,8 @@ footer{
 
 .a11y-modal{
     position: fixed;
-    right: 2%;
-    bottom: 3%;
+    right: 0;
+    bottom: 5%;
 }
 
 @media (min-width: 600px) {

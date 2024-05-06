@@ -105,7 +105,7 @@
         border-bottom-right-radius: 45%;
     }
 
-    .section__head img{width: 25%;}
+    .ag-logo{width: 25%;}
 
     .section-footer p{
         position: fixed;
@@ -136,7 +136,7 @@
         font-size: 1.5rem;
     }
 
-    .section__head img{width: 10%;}
+    .ag-logo{width: 10%;}
 
     .section__main{
         position: relative;
