@@ -16,16 +16,6 @@
     --clr-dark-gray:#636363;
 }
 
-body{
-    background: linear-gradient(to bottom, #2765D9 50%, 
-        #fff 100%);
-}
-
-header{
-    background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
-        var(--clr-blue-primary) 100%);
-}
-
 p{
     margin-bottom: 0;
 }
