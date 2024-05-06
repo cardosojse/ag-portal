@@ -88,7 +88,13 @@
         font-size: 1.06066rem;
     }
 
+    body{
+        background: linear-gradient(to bottom, #2765D9 10%, 
+            #fff 10%);
+    }
+
     .container{
+        background-color: #fff;
         padding: 2em 1em;
     }
 

@@ -16,6 +16,11 @@
     --clr-dark-gray:#636363;
 }
 
+body{
+    background: linear-gradient(to bottom, #2765D9 50%, 
+        #fff 100%);
+}
+
 header{
     background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
         var(--clr-blue-primary) 100%);
@@ -41,11 +46,6 @@ p{
 
 .nav-link:hover{color:rgba(255, 255, 255, .5)}
 
-.user-info{
-    line-height: 1rem;
-}
-
-.user-msg,
 .description,
 .footer-text{
     color: var(--clr-dark-gray);
@@ -91,7 +91,7 @@ input::placeholder{color: var(--clr-dark-gray)}
 .search-box{position: relative}
 
 .grid-title{
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     color: var(--clr-blue-primary);
 }
 
@@ -120,17 +120,19 @@ footer{
     width: 100%;
 }
 
-@media (min-width: 768px) {
+.a11y-modal{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+}
+
+@media (min-width: 600px) {
     .ag-logo,
-    .footer-logo{width: 5vw}
+    .footer-logo{width: 7vw}
 }
 
 @media (min-width: 992px) {
     .ag-logo{width: 4vw}
-
-    .user-info{line-height: 1.125rem}
-
-    .user-msg{font-size: .9rem}
 
     .search-box,
     .grid-title{
@@ -152,5 +154,5 @@ footer{
         transform: translateX(-50%);
     }
 
-    .footer-logo{width: 3vw}
+    .footer-logo{width: 2.5vw}
 }

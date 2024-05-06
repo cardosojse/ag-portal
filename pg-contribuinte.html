@@ -12,8 +12,8 @@
 <body>
     <header class="navbar navbar-expand-sm py-3">
         <div class="container">
-            <div class="nav-brand">
-                <img src="images/logo/Union.png" alt="ag-logo" class="ag-logo">
+            <img src="images/logo/Union.png" alt="ag-logo" class="ag-logo">
+            <!-- <div class="nav-brand">
             </div>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-list">
                 <span class="navbar-toggler-icon"></span>
@@ -30,26 +30,20 @@
                         <a href="index.html" class="nav-link">Sair</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </header>
-    <main class="container">
-        <div class="column pt-3">
-            <div class="user-info">
-                <p>Olá, <span class="user-name">José</span>!</p>
-                <p class="user-msg">Bom dia</p>
-            </div>
-            <div class="group-btn">
-                <button class="a11y-button">
-                    <i class="bi bi-zoom-out"></i>
-                </button>
-                <button class="a11y-button">
-                    <i class="bi bi-circle-half"></i>
-                </button>
-                <button class="a11y-button">
-                    <i class="bi bi-zoom-in"></i>
-                </button>
-            </div>
+    <main class="container bg-white">
+        <div class="d-flex gap-1 justify-content-end pt-3">
+            <button class="a11y-button">
+                <i class="bi bi-zoom-out"></i>
+            </button>
+            <button class="a11y-button">
+                <i class="bi bi-circle-half"></i>
+            </button>
+            <button class="a11y-button">
+                <i class="bi bi-zoom-in"></i>
+            </button>
         </div>
         <div class="d-lg-flex flex-row-reverse justify-content-between align-items-center py-lg-3">
             <div class="search-box">
@@ -63,6 +57,41 @@
         <section class="grid__section">
         </section>
     </main>
+    <div class="a11y-modal">
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target=".modal">
+            <i class="bi bi-universal-access-circle"></i>
+        </button>
+    </div>
+    <div class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Acessibilidade</h4>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <button class="a11y-button">
+                            <i class="bi bi-zoom-out"></i>
+                        </button>
+                        <span>esse botão faz isso</span>
+                    </div>
+                    <div>
+                        <button class="a11y-button">
+                            <i class="bi bi-zoom-in"></i>
+                        </button>
+                        <span>esse botão é o cara</span>
+                    </div>
+                    <div>
+                        <button class="a11y-button">
+                            <i class="bi bi-circle-half"></i>
+                        </button>
+                        <span>esse botão faz aquilo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
     <footer class="container column align-items-center pt-3">
         <div>
             <img src="images/lgpd-logo.png" alt="lgpd-logo" class="footer-logo">
