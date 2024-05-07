@@ -88,7 +88,7 @@ input::placeholder{color: var(--clr-dark-gray)}
 
 .grid-title{
     font-size: 1.35rem;
-    color: var(--clr-blue-primary);
+    color: var(--clr-blue-secondary);
 }
 
 .grid__section{

@@ -16,7 +16,7 @@
     --clr-dark-gray:#636363;
 }
 
-.section__head{background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%)}
+.section__head{background-color: var(--clr-blue-secondary);}
 
 .row{display: flex}
 
@@ -40,7 +40,7 @@
 .forms-main form input:focus,
 .forms-main form input:active{
     outline: none;
-    border: 2px solid var(--clr-blue-primary);
+    border: 2px solid var(--clr-blue-secondary);
 }
 
 .forms-footer{justify-content: space-between}
@@ -53,7 +53,7 @@
 
 .btn{
     color: #fff;
-    background-color: var(--clr-blue-primary);
+    background-color: var(--clr-blue-secondary);
     text-decoration: none;
     border-radius: 16px;
     padding: .75em 0;
@@ -69,11 +69,11 @@
 
 .voltar{
     background-color: #fff;
-    color: var(--clr-blue-primary);
-    border: 1px solid var(--clr-blue-primary);
+    color: var(--clr-blue-secondary);
+    border: 1px solid var(--clr-blue-secondary);
 }
 
-.anchor{color: var(--clr-blue-primary)}
+.anchor{color: var(--clr-blue-secondary)}
 
 .section-footer p{
     color: var(--clr-dark-gray);
@@ -84,10 +84,7 @@
 @media (max-width:576px) {
     *{font-size: 1.06066rem}
 
-    .container{
-        background-color: #fff;
-        padding: 2em 1em;
-    }
+    .container{padding: 2em 1em}
 
     .d-none{display: none}
 
