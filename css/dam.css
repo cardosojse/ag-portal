@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.125rem;
+}
+
+:root{
+    --clr-blue-primary:#022C90;
+    --clr-blue-secondary:#2765D9;
+    --clr-yellow:#FEBB01;
+    --clr-light-gray:#DCDCDC;
+    --clr-dark-gray:#636363;
+}
+
+header{
+    background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
+        var(--clr-blue-primary) 100%);
+}
+
+p{margin-bottom: 0;}
+
+.ag-logo{width: 13vw;}
