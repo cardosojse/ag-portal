@@ -17,8 +17,9 @@
 }
 
 header{
-    background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
-        var(--clr-blue-primary) 100%);
+    /* background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
+        var(--clr-blue-primary) 100%); */
+    background-color: var(--clr-blue-secondary);
 }
 
 p{
