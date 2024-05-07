@@ -19,7 +19,7 @@
 header{
     /* background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, 
         var(--clr-blue-primary) 100%); */
-    background-color: var(--clr-blue-secondary);
+    background-color: var(--clr-blue-primary);
 }
 
 p{
@@ -81,14 +81,14 @@ input::placeholder{color: var(--clr-dark-gray)}
 #input-busca:focus,
 #input-busca:hover{
     outline: none;
-    border: 2px solid var(--clr-blue-secondary);
+    border: 2px solid var(--clr-blue-primary);
 }
 
 .search-box{position: relative}
 
 .grid-title{
     font-size: 1.35rem;
-    color: var(--clr-blue-secondary);
+    color: var(--clr-blue-primary);
 }
 
 .grid__section{
@@ -107,7 +107,7 @@ input::placeholder{color: var(--clr-dark-gray)}
 }
 
 .grid-item:hover{
-    border: 1px solid var(--clr-blue-secondary);
+    border: 1px solid var(--clr-blue-primary);
     cursor: pointer;
 }
 
