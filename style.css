@@ -92,8 +92,8 @@
     .forms-main p{text-align: center}
 
     .section__head{
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 45%;
+        border-bottom-right-radius: 45%;
     }
 
     .ag-logo{width: 20%}
