@@ -118,6 +118,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 1em;
+        background: linear-gradient(to bottom, var(--clr-blue-secondary) 0%, var(--clr-blue-primary) 100%);
     }
 
     .section__head p{
