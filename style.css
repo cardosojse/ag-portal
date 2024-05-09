@@ -23,6 +23,8 @@
 .gov-logo--container{
     width: 50%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .gov-logo{width: 75%}
