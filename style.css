@@ -91,7 +91,7 @@
 @media (max-width:576px) {
     *{font-size: 1.06066rem}
 
-    .container{padding: 2em 1em}
+    .container{padding: 1em}
 
     .d-none{display: none}
 
