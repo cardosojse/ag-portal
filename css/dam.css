@@ -60,6 +60,11 @@
     margin-top: .5em;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
 @media (min-width: 992px) {
     .tributos__section{
         height: 600px;
