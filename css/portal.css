@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Rubik", sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 :root{
@@ -130,6 +130,13 @@ footer{
     width: 100%;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .a11y-modal{
     position: fixed;
     right: 0;
@@ -155,13 +162,6 @@ footer{
     .grid__section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    footer{
-        position: fixed;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .footer-logo{width: 4vw}
