@@ -130,13 +130,6 @@ footer{
     width: 100%;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .a11y-modal{
     position: fixed;
     right: 0;
@@ -162,6 +155,13 @@ footer{
     .grid__section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .footer-logo{width: 4vw}
