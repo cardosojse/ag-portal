@@ -36,6 +36,7 @@ p{margin-bottom: 0}
 .gov-logo--container{width: 50%}
 .gov-logo{width: 75%}
 .user-text{line-height: 1rem}
+.user-name{font-size: 1rem;}
 
 .user-btn{
     background-color: var(--clr-blue-primary);
