@@ -24,7 +24,7 @@ body{
 
 .section__head{background-color: var(--clr-blue-primary)}
 
-.zzz{
+.welcome-box{
     display: flex;
     flex-direction: column;
     gap: 1em;
