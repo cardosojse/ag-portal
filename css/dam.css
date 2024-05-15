@@ -93,3 +93,9 @@ footer{
         font-size: 1rem;
     }
 }
+
+@media (min-width: 1200px) and (min-height: 768px){
+    .tributos__section{
+        height: 700px;
+    }
+}
