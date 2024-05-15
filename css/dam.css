@@ -82,12 +82,6 @@ footer{
     bottom: 0;
 }
 
-@media (max-height:768px) {
-    .tributos__section{
-        height: 350px;
-    }
-}
-
 @media (min-width: 992px) {
     .tributos__section{
         height: 550px;
