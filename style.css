@@ -103,7 +103,7 @@ input::placeholder{font-size: 1rem}
 }
 
 .voltar{
-    background-color: var(--clr-light-gray);
+    background-color: var(--clr-white);
     color: var(--clr-blue-primary);
     border: 1px solid var(--clr-blue-primary);
 }
