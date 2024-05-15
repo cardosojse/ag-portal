@@ -68,8 +68,8 @@
     text-align: center;
 }
 
-.tributos__section h5{
-    border-top: 1px solid var(--clr-light-gray);
+.tributos-title{
+    padding: .5em;
 }
 
 .tributos__section p{
@@ -84,13 +84,9 @@ footer{
 @media (min-width: 992px){
     .tributos__section{
         height: 550px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         overflow-y: hidden;
         overflow-x: hidden;
-    }
-
-    .tributos__section div + div{
-        border-left: 1px solid var(--clr-light-gray);
     }
 
     .tributos-footer p, span{
