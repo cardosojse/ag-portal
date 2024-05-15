@@ -82,7 +82,7 @@ footer{
     bottom: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px){
     .tributos__section{
         height: 550px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
