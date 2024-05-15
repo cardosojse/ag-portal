@@ -69,12 +69,11 @@
 }
 
 .tributos__section h5{
-    border-bottom: 1px solid #f2f2f2;
-    padding: .5em 0;
+    border-top: 1px solid var(--clr-light-gray);
 }
 
-.tributos__section p + p{
-    margin-top: .5em;
+.tributos__section p{
+    margin-bottom: .5em;
 }
 
 footer{
@@ -91,7 +90,7 @@ footer{
     }
 
     .tributos__section div + div{
-        border-left: 1px solid #f2f2f2;
+        border-left: 1px solid var(--clr-light-gray);
     }
 
     .tributos-footer p, span{
