@@ -81,10 +81,10 @@ footer{
     bottom: 0;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) and (min-height: 600px){
     .tributos__section{
-        height: 550px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 450px;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         overflow-y: hidden;
         overflow-x: hidden;
     }
@@ -94,7 +94,7 @@ footer{
     }
 }
 
-@media (min-width: 1200px) and (min-height: 768px){
+@media (min-width: 1200px) and (min-height: 888px){
     .tributos__section{
         height: 700px;
     }
