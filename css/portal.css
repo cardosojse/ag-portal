@@ -115,7 +115,7 @@ p{margin-bottom: 0}
 #input-tributos{
     background-color: var(--bg-light);
     border: 2px solid var(--clr-light-gray);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: .75em 1em;
 }
 
@@ -124,7 +124,7 @@ p{margin-bottom: 0}
 #input-busca{
     background-color: var(--bg-light);
     border: 2px solid var(--clr-light-gray);
-    border-radius: 8px;
+    border-radius: 16px;
     padding: .75em 1em;
     width: 100%
 }
