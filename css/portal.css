@@ -30,7 +30,6 @@ p{margin-bottom: 0}
 
 .description, .footer-text, .msg{
     color: var(--clr-dark-gray);
-    font-size: .8rem;
 }
 
 .gov-logo--container{width: 50%}

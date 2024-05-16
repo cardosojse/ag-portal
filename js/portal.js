@@ -12,7 +12,7 @@ const addData = () => {
             newItem.innerHTML = `
                 <img width="50" height="50" src="${item.img}"/>
                 <div class="app-info" onclick="loginRef()">
-                    <p class="app-name">${item.name}</p>
+                    <h5 class="app-name">${item.name}</h5>
                     <p class="description">${item.description}</p>
                 </div>`;
             gridApp.appendChild(newItem);
