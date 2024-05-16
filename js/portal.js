@@ -1,4 +1,7 @@
+let html = document.querySelector('html')
 let gridApp = document.querySelector('.grid__section');
+let contrasteBtn = document.querySelector("#contraste-btn")
+
 let gridList = [];
 
 const addData = () => {
@@ -32,5 +35,13 @@ const initApp = () => {
         addData();
     })
 }
+
+contrasteBtn.addEventListener("click", () => {
+    if(html.classList.contains("dark-mode")){
+        html.classList.remove("dark-mode");
+    } else {
+        html.classList.add("dark-mode");
+    }
+})
 
 initApp();
