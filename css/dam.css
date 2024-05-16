@@ -88,10 +88,10 @@ footer{
         overflow-y: hidden;
         overflow-x: hidden;
     }
-
-    .tributos__section div + div{
+    
+    /* .tributos__section div + div{
         border-left: 1px solid var(--clr-light-gray);
-    }
+    } */
 
     .tributos-footer p, span{
         font-size: 1rem;

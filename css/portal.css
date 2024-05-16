@@ -14,10 +14,9 @@
     --clr-yellow:#FEBB01;
     --clr-light-gray:#DCDCDC;
     --clr-dark-gray:#636363;
-    --clr-white: #fafafa;
 }
 
-header{background-color: #022C90}
+header{background-color: var(--clr-blue-primary)}
 
 p{margin-bottom: 0}
 
@@ -48,11 +47,11 @@ p{margin-bottom: 0}
 
 .user-popover{
     --bs-popover-bg: var(--clr-blue-primary);
-    --bs-popover-body-color: var(--clr-white);
+    --bs-popover-body-color: #fff;
 }
 
 .popover-list{
-    color: var(--clr-white);
+    color: #fff;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -64,7 +63,7 @@ p{margin-bottom: 0}
 
 .popover-list--a{
     text-decoration: none;
-    color: var(--clr-white);
+    color: #fff;
 }
 
 .bi-person-fill{color: #fff}

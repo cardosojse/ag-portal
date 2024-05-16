@@ -13,7 +13,6 @@
     --clr-yellow:#FEBB01;
     --clr-light-gray:#DCDCDC;
     --clr-dark-gray:#636363;
-    --clr-white: #fff;
 }
 
 body{
@@ -24,15 +23,15 @@ body{
 
 .section__head{background-color: var(--clr-blue-primary)}
 
+.section__head a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .welcome-box{
     display: flex;
     flex-direction: column;
     gap: 1em;
-}
-
-.section__head a{
-    color: var(--clr-white);
-    text-decoration: none;
 }
 
 .return-btn{
@@ -59,13 +58,13 @@ body{
     text-align: center;
 }
 
-.forms-main{margin-top: .75em}
+.forms-main{margin-top: 1em}
 
-.forms-main form{padding: .75em 0}
+.forms-main form{padding: .5em 0}
 
 .forms-main form input{
     width: 100%;
-    padding: 1.125em;
+    padding: 1.25em;
     border-radius: 16px;
     border: 2px solid var(--clr-light-gray);
 }
@@ -82,12 +81,12 @@ input::placeholder{font-size: 1rem}
 
 .section-btn{
     flex-direction: column;
-    padding: 1.25em 0;
+    padding: 1.5em 0;
     gap: .5em;
 }
 
 .btn{
-    color: var(--clr-white);
+    color: #fff;
     background-color: var(--clr-blue-primary);
     text-decoration: none;
     border-radius: 16px;
@@ -103,7 +102,7 @@ input::placeholder{font-size: 1rem}
 }
 
 .voltar{
-    background-color: var(--clr-white);
+    background-color: #fff;
     color: var(--clr-blue-primary);
     border: 1px solid var(--clr-blue-primary);
 }
@@ -116,7 +115,7 @@ input::placeholder{font-size: 1rem}
     font-size: .8rem;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .container{padding: 1em}
     .d-none{display: none}
     .ag-logo{width: 20%}
@@ -125,6 +124,7 @@ input::placeholder{font-size: 1rem}
     .section__head{
         border-bottom-left-radius: 45%;
         border-bottom-right-radius: 45%;
+        padding: 1.5em 0;
     }
 
     .section__head a{
@@ -172,7 +172,7 @@ input::placeholder{font-size: 1rem}
     }
 
     .section__head p{
-        color: var(--clr-white);;
+        color: #fff;
         font-size: 1.5rem;
     }
 
