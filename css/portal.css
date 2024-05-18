@@ -46,7 +46,7 @@ p{margin-bottom: 0}
 
 .gov-logo--container{width: 50%}
 .gov-logo{
-    width: 50%;
+    width: 75%;
     background-color: #fafafa;
 }
 
@@ -184,7 +184,7 @@ footer{
     top: 50%;
 }
 
-@media (min-width: 992px) and (min-height: 700px) {
+@media (min-width: 992px) and (min-height: 600px) {
     .gov-logo{width: 40%}
     .gov-logo--container{width: 130px}
     #input-busca{padding: .5em 1em}
