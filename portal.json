@@ -21,7 +21,7 @@
         "id": 4,
         "img": "images/icons/nfe.png",        
         "name": "NFE",
-        "description": "Nota fiscal de serviço"
+        "description": "Nota fiscal eletrônica de serviço"
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "id": 8,
         "img": "images/icons/requerimento.png",        
         "name": "Requerimento",
-        "description": "P/ diferentes serviços"
+        "description": "P/ diferentes tipos de serviços"
     },
     {
         "id": 9,
