@@ -27,7 +27,7 @@
     --text-blue: #febb01;
     --text-gray: #ababab;
     --bg-light: #121212;
-    --clr-blue-primary: #000;
+    --clr-blue-primary: #555;
 }
 
 body{
@@ -143,12 +143,11 @@ input::placeholder{font-size: 1rem}
 
 .voltar{
     background-color: var(--bg-light);
-    color: var(--text-dark);
-    border: 1px solid var(--text-dark);
+    color: var(--text-blue);
+    border: 1px solid var(--text-blue);
 }
 
 .anchor{color: var(--text-blue)}
-
 
 .section-footer p{
     background-color: var(--bg-light);
@@ -189,7 +188,7 @@ input::placeholder{font-size: 1rem}
     }
 }
 
-@media (min-width:992px){
+@media (min-width:992px) {
     .wrapper{min-height: 100dvh}
     .column{display: flex;}
     .ag-logo{width: 10%}
@@ -206,7 +205,7 @@ input::placeholder{font-size: 1rem}
     }
 
     .section__head{
-        width: 50%;
+        flex-basis: 65%;
         flex-direction: column;
         justify-content: space-between;
         padding: 1em;
@@ -219,8 +218,8 @@ input::placeholder{font-size: 1rem}
     }
 
     .section__main{
+        flex-basis: 35%;
         position: relative;
-        width: 50%;
     }
 
     .section-footer{
