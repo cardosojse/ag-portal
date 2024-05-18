@@ -186,7 +186,7 @@ footer{
     top: 50%;
 }
 
-@media (min-width: 992px) and (min-height: 700px) {
+@media (min-width: 992px) and (min-height: 600px) {
     .ag-logo{width: 6vw}
 
     .gov-logo{width: 40%}
