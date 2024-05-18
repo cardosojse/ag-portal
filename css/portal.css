@@ -186,7 +186,7 @@ footer{
 
 @media (min-width: 992px) and (min-height: 600px) {
     .gov-logo{width: 40%}
-    .gov-logo--container{width: 30%}
+    .gov-logo--container{width: 35%}
     #input-busca{padding: .5em 1em}
 
     .grid__section{grid-template-columns: repeat(3, 1fr)}
