@@ -115,7 +115,7 @@ p{margin-bottom: 0}
 
 #input-tributos{
     background-color: var(--bg-light);
-    border: 2px solid var(-border-gray);
+    border: 1px solid var(-border-gray);
     border-radius: 16px;
     padding: .75em 1em;
 }
@@ -124,7 +124,7 @@ p{margin-bottom: 0}
 
 #input-busca{
     background-color: var(--bg-light);
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: .75em 1em;
     width: 100%
@@ -134,7 +134,7 @@ input::placeholder, input:focus{color: var(--text-gray)}
 
 #input-busca:focus, #input-busca:hover, #input-tributos:focus, #input-tributos:hover{
     outline: none;
-    border: 2px solid var(--clr-blue-primary);
+    border: 1px solid var(--clr-blue-primary);
 }
 
 .search-box{position: relative}

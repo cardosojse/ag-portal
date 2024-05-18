@@ -82,19 +82,28 @@ footer{
     color: var(--text-dark);
 }
 
-@media (min-width: 992px) and (min-height: 600px){
+@media (min-width: 992px) and (min-height: 600px) {
     .tributos__section{
-        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(8, 1fr);
         overflow-y: hidden;
         overflow-x: hidden;
+        height: 350px;
     }
-    
+
     .tributos-footer p, span{
         font-size: 1rem;
     }
 }
 
-@media (min-width: 1200px) or (min-height: 935px){
+@media (min-height: 768px){
+    .tributos__section{
+        height: 450px;
+    }
+
+    
+}
+
+@media (min-width: 1200px) and (min-height: 935px){
     .tributos__section{
         height: 600px;
     }
