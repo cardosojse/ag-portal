@@ -42,8 +42,7 @@ p{margin-bottom: 0}
 
 .description, .footer-text, .msg{color: var(--text-gray)}
 
-.ag-logo{width: 15%}
-.footer-logo{width: 20%}
+.ag-logo, .footer-logo{width: 40px}
 
 .gov-logo--container{width: 50%}
 .gov-logo{
@@ -187,13 +186,10 @@ footer{
 }
 
 @media (min-width: 992px) and (min-height: 600px) {
-    .ag-logo{width: 6vw}
-
     .gov-logo{width: 40%}
-
     .gov-logo--container{width: 50%}
-
     #input-busca{padding: .5em 1em}
+    .footer-logo{width: 4vw}
 
     .grid__section{grid-template-columns: repeat(3, 1fr)}
 
@@ -208,15 +204,11 @@ footer{
         left: 50%;
         transform: translateX(-50%);
     }
-
-    .footer-logo{width: 4vw}
 }
 
 @media (min-width: 1200px) and (min-height: 800px){
-    .ag-logo{width: 4vw}
     .gov-logo--container{width: 50%}
     .gov-logo{width: 20%}
-    .footer-logo{width: 3.5vw}
     .grid__section{grid-template-columns: repeat(3, 1fr)}
 }
 

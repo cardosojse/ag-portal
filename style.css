@@ -158,7 +158,7 @@ input::placeholder{font-size: 1rem}
 @media (max-width: 991px) {
     .container{padding: 1em}
     .d-none{display: none}
-    .ag-logo{width: 20%}
+    .ag-logo{width: 50px}
     .section__head, .forms-main p{text-align: center}
 
     .section__head{
@@ -191,8 +191,7 @@ input::placeholder{font-size: 1rem}
 @media (min-width:992px) {
     .wrapper{min-height: 100dvh}
     .column{display: flex;}
-    .ag-logo{width: 10%}
-    .footer-logo{width: 6vw}
+    .ag-logo, .footer-logo{width: 40px}
 
     .position{
         position: absolute;
