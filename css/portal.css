@@ -184,11 +184,10 @@ footer{
     top: 50%;
 }
 
-@media (min-width: 992px) and (min-height: 600px) {
+@media (min-width: 992px) and (min-height: 700px) {
     .gov-logo{width: 40%}
     .gov-logo--container{width: 50%}
     #input-busca{padding: .5em 1em}
-    .footer-logo{width: 4vw}
 
     .grid__section{grid-template-columns: repeat(3, 1fr)}
 
@@ -208,7 +207,7 @@ footer{
 @media (min-width: 1200px) and (min-height: 800px){
     .gov-logo--container{width: 50%}
     .gov-logo{width: 20%}
-    .grid__section{grid-template-columns: repeat(3, 1fr)}
+    .grid__section{grid-template-columns: repeat(4, 1fr)}
 }
 
 @media (min-height: 1200px) {
