@@ -87,12 +87,6 @@ footer{
     }
 }
 
-@media (min-height: 765px){
-    .tributos__section{
-        height: 400px;
-    }
-}
-
 @media (min-width: 1200px) and (min-height: 935px){
     .tributos__section{
         height: 650px;
