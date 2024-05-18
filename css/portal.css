@@ -173,7 +173,6 @@ input::placeholder, input:focus{color: var(--text-gray)}
 }
 
 footer{
-    background-color: var(--bg-light);
     width: 100%;
 }
 
