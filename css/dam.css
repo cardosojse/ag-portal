@@ -74,6 +74,19 @@ footer{
     color: var(--text-dark);
 }
 
+@media (max-width:576px) {
+    .pay-btn{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer.column{justify-content: center}
+
+    footer div{display: none}
+}
+
 @media (min-width: 992px) and (min-height: 600px) {
     .tributos__section{
         grid-template-columns: repeat(8, 1fr);

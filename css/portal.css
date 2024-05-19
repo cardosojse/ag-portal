@@ -184,8 +184,8 @@ footer{
     top: 50%;
 }
 
-@media (min-width: 992px) and (min-height: 600px) {
-    .gov-logo{width: 40%}
+@media (min-width: 768px) and (min-height: 600px) {
+    .gov-logo{width: 120px}
     .gov-logo--container{width: 35%}
     #input-busca{padding: .5em 1em}
 
