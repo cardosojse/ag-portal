@@ -117,7 +117,7 @@ p{margin-bottom: 0}
 
 #input-tributos{
     background-color: var(--bg-light);
-    border: 1px solid var(-border-gray);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: .75em 1em;
 }
