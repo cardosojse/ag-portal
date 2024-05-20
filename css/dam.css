@@ -76,13 +76,12 @@ footer{
     }
 
     footer.column{justify-content: center}
-
+    
     footer div{display: none}
 }
 
 @media (min-width: 992px) and (min-height: 600px) {
     .tributos__section{
-        grid-template-columns: repeat(8, 1fr);
         overflow-y: hidden;
         overflow-x: hidden;
         height: 350px;
