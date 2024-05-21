@@ -116,6 +116,7 @@ p{margin-bottom: 0}
 .search-box{margin: 1em 0}
 
 #input-tributos{
+    color: var(--text-dark);
     background-color: var(--bg-light);
     border: 1px solid var(--border);
     border-radius: 16px;
