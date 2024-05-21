@@ -55,11 +55,6 @@
 .tributos-title{
     color: var(--text-dark);
     padding: .5em;
-    border-bottom: 1px solid #DCDCDC;
-}
-
-.tributos-item .selected{
-    background-color: var(--clr-blue-secondary);
 }
 
 .tributos__section p{
@@ -67,9 +62,9 @@
     color: var(--text-dark);
 }
 
-.tributos__section div+div{
+/* .tributos__section div+div{
     border-left: 1px solid #DCDCDC;
-}
+} */
 
 footer{
     position: fixed;
