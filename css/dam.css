@@ -44,27 +44,27 @@
 .tributos__section{
     overflow-y: scroll;
     overflow-x: hidden;
-    display: grid;
-    grid-template-columns: 1fr;
     text-align: center;
     height: 300px;
     border: 1px solid #DCDCDC;
     border-radius: 8px;
+    color: var(--text-dark);
+    font-weight: 400;
 }
 
 .tributos-title{
-    color: var(--text-dark);
-    padding: .5em;
+    border-bottom: 1px solid #d9d9d9;
 }
 
-.tributos__section p{
-    margin-bottom: .5em;
-    color: var(--text-dark);
+.tributos-title h5, .tributos{
+    padding: .5em 0;
+    margin: 0;
 }
 
-/* .tributos__section div+div{
-    border-left: 1px solid #DCDCDC;
-} */
+.selected{
+    background-color: var(--clr-blue-secondary);
+    color: #fff;
+}
 
 footer{
     position: fixed;
@@ -91,10 +91,13 @@ footer{
 
 @media (min-width: 992px) and (min-height: 600px) {
     .tributos__section{
-        overflow-y: hidden;
         overflow-x: hidden;
-        grid-template-columns: 2fr repeat(7, 1fr);
         height: 320px;
+    }
+
+    .tributos-title, .tributos{
+        display: grid;
+        grid-template-columns: 2fr repeat(7, 1fr);
     }
 
     .tributos-footer p, span{

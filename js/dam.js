@@ -23,13 +23,13 @@ cortina.addEventListener("click", ()=>{
     cortina.classList.remove("show-curtain");
 })
 
-// document.addEventListener("DOMContentLoaded", function(){
-//     const tributosItems = document.querySelectorAll(".tributos-item");
+document.addEventListener("DOMContentLoaded", function(){
+    const tributos = document.querySelectorAll(".tributos");
 
-//     tributosItems.forEach(item => {
-//         item.addEventListener("click", function(){
-//             tributosItems.forEach(i => i.classList.remove('selected'));
-//             this.classList.add('selected');
-//         })
-//     })
-// });
+    tributos.forEach(item => {
+        item.addEventListener("click", function(){
+            tributos.forEach(i => i.classList.remove('selected'));
+            this.classList.add('selected');
+        })
+    })
+});
