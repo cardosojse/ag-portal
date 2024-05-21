@@ -52,9 +52,7 @@
     font-weight: 400;
 }
 
-.tributos-title{
-    border-bottom: 1px solid #d9d9d9;
-}
+.tributos-title{border-bottom: 1px solid #d9d9d9}
 
 .tributos-title h5, .tributos{
     padding: .5em 0;
