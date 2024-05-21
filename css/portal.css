@@ -22,11 +22,11 @@
 .dark-mode:root{
     --border: #ababab;
     --btn-blue: #febb01;
-    --text-dark: #ababab;
+    --text-dark: #febb01;
     --text-blue: #febb01;
-    --text-gray: #ababab;
+    --text-gray: #febb01;
     --bg-light: #121212;
-    --clr-blue-primary: #000;
+    --clr-blue-primary: #555;
 }
 
 body{background-color: var(--bg-light)}
@@ -187,6 +187,7 @@ footer{
 @media (min-width: 768px) and (min-height: 600px) {
     .gov-logo{width: 120px}
     .gov-logo--container{width: 35%}
+    
     #input-busca{padding: .5em 1em}
 
     .grid__section{grid-template-columns: repeat(3, 1fr)}

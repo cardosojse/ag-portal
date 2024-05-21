@@ -104,7 +104,7 @@ input::placeholder{font-size: 1rem}
 
 .section-btn{
     flex-direction: column;
-    padding: 1.5em 0;
+    padding: 2.5em 0 0;
     gap: .5em;
 }
 
@@ -164,7 +164,7 @@ input::placeholder{font-size: 1rem}
     .section__head{
         border-bottom-left-radius: 45%;
         border-bottom-right-radius: 45%;
-        padding: 1.5em 0;
+        padding: 2em 0;
     }
 
     .section__head a{
