@@ -22,3 +22,14 @@ cortina.addEventListener("click", ()=>{
     sidebar.classList.remove("show-sidebar");
     cortina.classList.remove("show-curtain");
 })
+
+// document.addEventListener("DOMContentLoaded", function(){
+//     const tributosItems = document.querySelectorAll(".tributos-item");
+
+//     tributosItems.forEach(item => {
+//         item.addEventListener("click", function(){
+//             tributosItems.forEach(i => i.classList.remove('selected'));
+//             this.classList.add('selected');
+//         })
+//     })
+// });

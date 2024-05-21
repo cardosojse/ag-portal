@@ -58,6 +58,10 @@
     border-bottom: 1px solid #DCDCDC;
 }
 
+.tributos-item .selected{
+    background-color: var(--clr-blue-secondary);
+}
+
 .tributos__section p{
     margin-bottom: .5em;
     color: var(--text-dark);
