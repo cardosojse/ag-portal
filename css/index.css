@@ -46,8 +46,7 @@ body{
     align-items: center;
     gap: 2em;
 
-    background-color: transparent;
-    border: 2px solid #febb01;
+    background-color: #febb01;
     color: #fff;
     width: fit-content;
     padding: .5em .75em;
@@ -56,6 +55,5 @@ body{
 }
 
 .btn:hover{
-    background-color: #febb01;
-    transition: .5s;
+    opacity: .5;
 }
