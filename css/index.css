@@ -7,12 +7,12 @@
     font-family: "Rubik", sans-serif;
 }
 
-html{
-    height: 100vh;
-    background-color: #2765D9;
-}
+html{background-color: #2765D9}
 
-body{background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);}
+body{
+    height: 100dvh;
+    background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);
+}
 
 .ag-logo{
     width: 150px;
