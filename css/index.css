@@ -14,27 +14,48 @@ body{
     background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);
 }
 
+.content{
+    padding: 1em;
+}
+
 .ag-logo{
-    margin: .5em;
-    width: 150px;
+    width: 60px;
+}
+
+.content h1, p{
+    color: #fff;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+.content h1{
+    font-size: 3.25rem;
+}
+
+.content p{
+    font-size: 2rem;
 }
 
 .btn{
     position: absolute;
-    bottom: 1%;
-    right: 1%;
+    bottom: 0;
+    right: 0;
+
 
     display: flex;
     align-items: center;
-    gap: .5em;
+    gap: 2em;
 
+    background-color: transparent;
+    border: 2px solid #febb01;
     color: #fff;
     width: fit-content;
-    padding: .5em 0;
-    margin: .5em;
-    border-bottom: 2.5px solid #fff;
+    padding: .5em .75em;
+    border-radius: 16px;
+    margin: 1em;
 }
 
 .btn:hover{
-    opacity: .5;
+    background-color: #febb01;
+    transition: .5s;
 }
