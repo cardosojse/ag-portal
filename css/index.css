@@ -10,7 +10,7 @@
 html{background-color: #2765D9}
 
 body{
-    height: 100vh;
+    height: 100dvh;
     background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);
 }
 
