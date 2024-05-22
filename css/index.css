@@ -8,7 +8,6 @@
 }
 
 body{
-    font-size: 1rem;
     height: 100vh;
     padding: 1em;
     background: linear-gradient(to bottom, #2765D9 0%, #022C90 100%);
@@ -27,8 +26,7 @@ body{
 }
 
 .ag-logo{
-    width: 10vw;
-    max-width: 100px;
+    width: 150px;
 }
 
 .btn{
@@ -46,7 +44,6 @@ body{
     margin: 1em;
     border-bottom: 2.5px solid #fff;
 }
-
 
 .btn:hover{
     opacity: .5;

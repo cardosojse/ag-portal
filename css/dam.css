@@ -54,10 +54,7 @@
 
 .tributos-title{border-bottom: 1px solid #d9d9d9}
 
-.tributos-title h5, .tributos{
-    padding: .5em 0;
-    margin: 0;
-}
+.tributos-title h5, .tributos{padding: .5em 0;}
 
 .selected{
     background-color: var(--clr-blue-secondary);
@@ -69,10 +66,7 @@ footer{
     bottom: 0;
 }
 
-.tributos-footer p span{
-    font-size: .8rem;
-    color: var(--text-dark);
-}
+.tributos-footer{color: var(--text-dark)}
 
 @media (max-width:576px) {
     .pay-btn{
@@ -89,8 +83,8 @@ footer{
 
 @media (min-width: 992px) and (min-height: 600px) {
     .tributos__section{
-        overflow-x: hidden;
         overflow-y: auto;
+        overflow-x: hidden;
         height: 320px;
     }
 
@@ -98,13 +92,9 @@ footer{
         display: grid;
         grid-template-columns: 2fr repeat(7, 1fr);
     }
-
-    .tributos-footer p span{
-        font-size: 1rem;
-    }
 }
 
-@media (min-width: 1200px) and (min-height: 935px){
+@media (min-width: 1200px) or (min-height: 935px){
     .tributos__section{
         height: 650px;
     }
