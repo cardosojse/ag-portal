@@ -4,6 +4,6 @@
 
 ## Sobre o Projeto
 
-Projeto desenvolvido para a disciplina de Residência de Software I do curso de Sistemas de Informação da Universidade Tiradentes, em parceria com a Porto Digital. O projeto proposto pela empresa Ágape Sistemas, foi o portal do contribuinte, um sistema especializado em pagamentos de tributos. O sistema que nós desenvolvemos trouxe um design mais limpo para aplicação, como também a adição de ferramentas de acessibilidade. 
+Projeto desenvolvido para a disciplina de Residência de Software I do curso de Sistemas de Informação, numa parceria da Universidade Tiradentes com a Porto Digital. 
 
 Você pode [acessar o meu projeto](https://cardosojse.github.io/ag-portal) ou [baixá-lo](https://github.com/cardosojse/ag-portal) através do GitHub.
